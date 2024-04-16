@@ -1,0 +1,205 @@
+<html>
+<head>
+    <title>CSS</title>
+    <meta name="viewport" content="width=device-width; initial-scale=1.0;" />
+
+    <link rel="stylesheet" href="https://raw.githubusercontent.com/skndash96/dashcss/main/dashcss.css" />
+</head>
+
+<body class="dark">
+    <div class="container">
+        <h1> DashCSS </h1>
+
+        <div class="flex-col debug">
+            <h3> Items - Flex Col container </h3>
+            <div> Item1 </div>
+            <span> Item2 </span>
+        </div>
+        <div class="flex-row debug">
+            <h3> Items Flex Row container </h3>
+            <div> Item1 </div>
+            <span> Item2 </span>
+        </div>
+
+
+        <p>
+            Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+        </p>
+
+
+        <a href="#">go to wow</a>
+
+
+        <button>
+            normal
+        </button>
+
+        <button class="outline">
+            outlined
+        </button>
+
+        <input type="text" placeholder="hello" /><br />
+        <input type="radio" />
+        <input type="checkbox" />
+        <input class="switch" type="checkbox" />
+        <input type="date" />
+        <input type="file" />
+        <input type="range" />
+
+        <textarea>Add class "x" or "y"to change resize property to horizontal or vertical respectively. </textarea>
+
+        <ul>
+            <li> Item 1 </li>
+            <li> Item 2 </li>
+            <li> Item 3 </li>
+        </ul>
+
+        <select>
+            <option selected> item1 </option>
+            <option selected> item2 </option>
+            <option selected> item3 </option>
+        </select>
+
+        <h1> Heading 1 </h1>
+        <h2> Heading 2 </h2>
+        <h3> Heading 3 </h3>
+        <h4> Heading 4 </h4>
+        <h5> Heading 5 </h5>
+        <h6> Heading 6 </h6>
+        <small> Small </small>
+
+        <details class="accordion">
+            <summary role="button"> Pets are cute </summary>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </details>
+        <details class="accordion">
+            <summary role="button"> Dogs are more cute </summary>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+        </details>
+        <details class="accordion">
+            <summary role="button"> Cats are more cute </summary>
+            <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+        </details>
+
+        <nav class="nav">
+            <div class="nav-brand">
+                <span>🌠</span>
+                <span> Brand </span>
+            </div>
+
+            <ul class="nav-menu">
+                <li>
+                    <a href="#!">
+                        <span class="icon">🏁</span>
+                        <span>Tutorial</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <span class="icon">🏠</span>
+                        <span>Showcase</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#!">
+                        <span class="icon">⌨️</span>
+                        <span>Github</span>
+                    </a>
+                </li>
+            <ul>
+        </nav>
+
+        <h4>Flexbox</h4>
+        <div class="flexbox">
+            <div style="padding: 4rem; background: var(--elevate); width: 12rem;">1</div>
+            <div style="padding: 4rem; background: var(--elevate); width: 12rem;">2</div>
+            <div style="padding: 4rem; background: var(--elevate); width: 12rem;">3</div>
+            <div style="padding: 4rem; background: var(--elevate); width: 12rem;">4</div>
+            <div style="padding: 4rem; background: var(--elevate); width: 12rem;">5</div>
+            <div style="padding: 4rem; background: var(--elevate); width: 12rem;">6</div>
+            <div style="padding: 4rem; background: var(--elevate); width: 12rem;">7</div>
+            <div style="padding: 4rem; background: var(--elevate); width: 12rem;">8</div>
+            <div style="padding: 4rem; background: var(--elevate); width: 12rem;">9</div>
+        </div>
+
+        <h4>Grid (Minimal) </h4>
+        <div class="grid-3 justify-center">
+            <div style="padding: 4rem; background: var(--elevate); width: 12rem;">1</div>
+            <div style="padding: 4rem; background: var(--elevate); width: 12rem;">2</div>
+            <div style="padding: 4rem; background: var(--elevate); width: 12rem;">3</div>
+        </div>
+
+        <div class="container left">
+            <div class="card">
+                <div class="image">
+                    <img src="https://picsum.photos/400" />
+                </div>
+
+                <div class="content">
+                    <h2>Title</h2>
+                    <p>Now is the winter of our discontent made glorious summer by this sun of York and all the
+                        clouds
+                        that lour'd upon our house in the deep bosom of the ocean buried. Now are our brows bound
+                        with
+                        victorious wreaths.</p>
+                    <button> Learn more </button>
+                </div>
+            </div>
+            </class>
+
+            <details class="dropdown">
+                <summary> Pets </summary>
+                <ul>
+                    <li>Cat</li>
+                    <li>Dog</li>
+                    <li>Mouse</li>
+                    <li>Parrot</li>
+                </ul>
+            </details>
+
+            <div class="group">
+                <button>button1</button>
+                <button>button2</button>
+                <button>button3</button>
+            </div>
+
+
+            <button class="loading">
+                Please wait
+            </button>
+            <a class="loading" href="#"> link loading </a>
+
+            <button class="outline">
+                <span>🌠</span>
+                <div class="tooltip">
+                    <span>Click this button and have fun.</span>
+                </div>
+            </button>
+
+            <progress value="20" max="100"></progress>
+            <br />
+            <progress></progress>
+
+            <div>
+                <button onclick="document.getElementById('pet-dialog').showModal()">
+                    Open dialogue
+                </button>
+            </div>
+
+            <dialog id="pet-dialog">
+                <h2 class="title">Title</h2>
+
+                <div class="content">
+                    <p>This is a dialog that pops up due to user action.</p>
+                </div>
+
+                <div class="action">
+                    <button onclick="document.getElementById('pet-dialog').close()">Reject</button>
+                    <button onclick="document.getElementById('pet-dialog').close()">Accept</button>
+                </div>
+            </dialog>
+        </div>
+    </div>
+</body>
+
+</html>
